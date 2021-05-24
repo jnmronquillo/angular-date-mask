@@ -123,7 +123,7 @@ export class DateMaskDirective implements OnInit {
           return false;
         }
       } else {
-        if (this.input.value[index - 2] === this.separator) {
+        if (this.input.value[index - 1] === this.separator) {
           this.removeLast(2 + this.input.value.length - index);
 
           return false;
