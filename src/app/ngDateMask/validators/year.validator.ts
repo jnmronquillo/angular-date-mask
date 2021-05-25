@@ -31,4 +31,4 @@ export function yearValidator(string: string, position: number): boolean {
   }
 
   return true;
-};
+}

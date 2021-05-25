@@ -20,4 +20,4 @@ export function monthValidator(string: string, position: number): boolean {
   }
 
   return true;
-};
+}

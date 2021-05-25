@@ -20,4 +20,4 @@ export function dayValidator(string: string, position: number): boolean {
   }
 
   return true;
-};
+}
