@@ -4,7 +4,7 @@ ngdatemask - an input date mask directive to control input of dates
 
 it supports dd, MM, yyyy as formats
 
-it makes sure the day is between 1 and 31, the month between 1 and 12 and the year larger than 1895
+it makes sure the day is between 1 and 31, the month between 1 and 12 and the year minimum 1753 (Sql Server)
 
 it wont allow you to enter invalid date/month/year
 
